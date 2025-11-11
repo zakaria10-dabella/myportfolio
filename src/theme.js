@@ -1,0 +1,31 @@
+export const themes = {
+  dark: {
+    name: 'dark',
+    background: '#03040a',
+    surface: 'rgba(6, 12, 24, 0.75)',
+    surfaceLight: 'rgba(12, 20, 36, 0.6)',
+    border: 'rgba(88, 112, 156, 0.25)',
+    text: '#f8fafc',
+    muted: '#a8b3cf',
+    accent: '#1d4ed8',
+    accentSoft: 'rgba(29, 78, 216, 0.2)',
+    secondary: '#0ea5e9',
+    glow: 'rgba(59, 130, 246, 0.45)',
+    navBg: 'rgba(8, 13, 24, 0.7)',
+  },
+  light: {
+    name: 'light',
+    background: '#f4f7fb',
+    surface: 'rgba(255, 255, 255, 0.86)',
+    surfaceLight: 'rgba(255, 255, 255, 0.72)',
+    border: 'rgba(15, 23, 42, 0.12)',
+    text: '#0f172a',
+    muted: '#475569',
+    accent: '#2563eb',
+    accentSoft: 'rgba(37, 99, 235, 0.12)',
+    secondary: '#0891b2',
+    glow: 'rgba(37, 99, 235, 0.35)',
+    navBg: 'rgba(255,255,255,0.8)',
+  },
+}
+

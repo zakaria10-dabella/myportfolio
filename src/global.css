@@ -1,0 +1,22 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional subtle focus outline for accessibility */
+:focus-visible {
+  outline: 2px solid rgba(37, 99, 235, 0.6);
+  outline-offset: 2px;
+}
+
+/* Generic interactive transitions */
+a, button {
+  transition: transform 180ms ease, box-shadow 220ms ease, background-color 180ms ease, color 180ms ease, border-color 180ms ease;
+  will-change: transform;
+}
+
+/* Prevent image drag ghosting on animated items */
+img {
+  user-select: none;
+}
+
+
