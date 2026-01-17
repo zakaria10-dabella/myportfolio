@@ -9,10 +9,11 @@ const projectCards = [
     status: 'Live',
   },
   {
-    name: 'Coming Soon',
-    description: 'Stay tuned for my next full-stack launch — a data-rich SaaS experience in progress.',
-    tags: ['Design Sprint', 'API Architecture'],
-    status: 'In Progress',
+    name: 'Weather App',
+    description: 'A weather app that allows you to see your local weather',
+    tags: ['React', 'JavaScript', 'Tailwind'],
+    status: 'live',
+
   },
   {
     name: 'Coming Soon',
